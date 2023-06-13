@@ -1,12 +1,13 @@
 import React from "react";
 
-const BoardComponent = () => {
+interface BoardProprs {
+    board: Board;
+    setBoard: (board: Board) => void;
+}
+
+const BoardComponent: FC<BoardProps> = ({board: Board, setBoard}) => {
     return (
         <div className="board">
-<div className="cell white"></div>
-<div className="cell black"></div>
-<div className="cell white"></div>
-<div className="cell black"></div>
         </div>
     );
 };
