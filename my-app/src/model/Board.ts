@@ -68,6 +68,10 @@ export class Board {
         new Rook(Colors.WHITE, this.getCell(7, 7))
     }
 
+public addFisherFigures () {
+
+} //Здесь мы можем создать другую игру с этими же шахматами, на этой доске, если захотим. 
+
     public addFigures() {
 this.addPawns()
 this.addKnights()
