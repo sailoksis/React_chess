@@ -1,4 +1,6 @@
+import { Colors } from "./Colors";
 import { Figure } from "./figures/Figure";
+import { Board } from "./Board";
 
 export class Cell {
     readonly x: number;
@@ -9,13 +11,13 @@ export class Cell {
     available: boolean;// Do you can move figure? 
     id: number; // For React keys
 
-    constructor(board: Board, x: number, color: Colors, figure: Figure | null) {
+    constructor(board: Board, x: number, y: number, color: Colors, figure: Figure | null) {
         this.x = x;
         this.y = y;
         this.color = color;
         this.figure = figure;
         this.board = board;
-        this.available = available;
+        this.available = false;
         this.id = Math.random()
     } 
 }
