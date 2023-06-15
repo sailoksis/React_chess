@@ -48,3 +48,10 @@ background-color: wheat;
     border-radius: 50%;
     background-color: rgb(124, 185, 124);
 }
+
+.lost {
+    height: calc(50vh - 60px);
+    padding: 30px;
+    margin-left: 50px;
+    background-color: rgba(236, 223, 223, 0.349);
+}
