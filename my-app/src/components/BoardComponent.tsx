@@ -17,8 +17,8 @@ function click (cell:Cell) {
         selectedCell.moveFigure(cell);
         setSelectedCell(null);
     }
-    if (cell.figure) {
-        setSelectedCell(cell);
+    else {
+        setSelectedCell(cell)
     }
 
 }
