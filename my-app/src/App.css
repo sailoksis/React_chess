@@ -37,3 +37,7 @@ background-color: deepskyblue;
 .white {
 background-color: wheat;
 }
+
+.selected {
+    background-color: brown;
+}
