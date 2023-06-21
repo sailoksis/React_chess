@@ -51,8 +51,10 @@ function swapPlayer() {
         figures={board.lostWhiteFigures}
       />
      </div>
+     
     </div>
   );
 };
 
 export default App;
+
